@@ -1,0 +1,26 @@
+# ── Web framework ─────────────────────────────────────────────────────────────
+fastapi==0.115.5
+uvicorn[standard]==0.32.1
+python-multipart==0.0.17
+
+# ── Config & validation ───────────────────────────────────────────────────────
+pydantic-settings==2.6.1
+
+# ── Search ────────────────────────────────────────────────────────────────────
+rapidfuzz==3.10.1
+
+# ── Embeddings ────────────────────────────────────────────────────────────────
+sentence-transformers==3.3.1
+# torch is a transitive dep of sentence-transformers.
+# For GPU: install separately from https://pytorch.org/get-started/locally/
+
+# ── Vector store ──────────────────────────────────────────────────────────────
+qdrant-client==1.12.1
+
+# ── Data pipeline ─────────────────────────────────────────────────────────────
+pandas==2.2.3
+numpy==1.26.4
+kaggle==1.6.17               # optional: only needed for Kaggle download
+
+# ── CLI & terminal output ──────────────────────────────────────────────────────
+rich==13.9.4

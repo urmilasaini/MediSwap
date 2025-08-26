@@ -1,19 +1,4 @@
----
-title: MEDISWAP
-emoji: 💊
-colorFrom: blue
-colorTo: green
-sdk: docker
-app_port: 7860
-pinned: false
-short_description: Medicine alternative recommendation app.
-tags:
-  - medicine
-  - healthcare
-  - fastapi
-  - semantic-search
-  - qdrant
----
+
 
 # MediSwap
 
